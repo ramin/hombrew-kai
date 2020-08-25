@@ -1,4 +1,4 @@
-class KaiCLI < Formula
+class KaiCli < Formula
   desc "kai - AI cli"
   homepage "https://kai.kepler.com"
   version "0.0.1"
