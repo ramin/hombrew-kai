@@ -5,12 +5,12 @@ class KaiCli < Formula
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/ramin/oh/releases/download/0.0.2/kai.darwin-x64"
-    sha256 "7afbfa31c6133faef6723026844ac0019e922dcea44dee5b39034faa269fc0e6"
+    url "https://github.com/ramin/oh/releases/download/0.0.4/kai.amd64.tar.gz"
+    sha256 "52059721375a7fd90ca52f2dd8bfb4599321c232c9c02f55c6ae237e9619341e"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/ramin/oh/releases/download/0.0.2/kai.darwin-x64"
-      sha256 "0f39bd35c9bcc1da172a7bc6d5774cc8be0a13f951fc8de18ef8f5b9c504333d"
+      url "https://github.com/ramin/oh/releases/download/0.0.4/kai.amd64.tar.gz"
+      sha256 "a859fb74c8c9d1f82a5e4b31292180fbf27a1c7348ed05d7926d61855123ce8b"
     end
   end
 
