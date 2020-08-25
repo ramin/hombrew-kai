@@ -16,10 +16,10 @@ class KaiCli < Formula
 
   def install
     if OS.mac?
-      bin.install "kai.darwin-x64" => "kai"
+      bin.install "kai"
     elsif OS.linux?
       if Hardware::CPU.intel?
-        bin.install "kai.amd64" => "kai"
+        bin.install "kai"
       end
     end
   end
